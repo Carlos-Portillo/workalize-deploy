@@ -1,0 +1,10 @@
+@import "./../../../variables";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: $theme-light-color; */
+    width: 100%;
+    padding: 5rem;
+    flex-wrap: nowrap;
+}
