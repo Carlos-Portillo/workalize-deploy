@@ -1,0 +1,73 @@
+@import '../../variables';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    padding: 2rem 5rem 2rem 5rem;
+
+    width: 100%;
+
+    figure {
+        width: auto;
+        height: auto;
+    
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 350px;
+    
+        max-width: 1250px;
+        height: 790px;
+        object-fit: contain;
+
+        img {
+            width: 100%;
+            height: 100%;
+
+            border-radius: 32px 0px 0px 32px;
+        }
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+
+        width: auto;
+        height: auto;
+    
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 350px;
+    
+        max-width: 500px;
+        max-height: 790px;
+
+        background: #0D47A1;
+        border-radius: 0px 32px 32px 0px;
+
+        padding: 2rem;
+
+        gap: 1.5rem;
+
+        h2 {
+            text-align: center;
+            font-family: 'Montserrat';
+            font-weight: 600;
+            font-size: 32px;
+
+            color: #E3F2FD;
+        }
+
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+
+            color: #E3F2FD;
+        }
+    }
+}
